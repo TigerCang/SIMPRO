@@ -1,0 +1,212 @@
+/* #togglepass {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: url(../images/show.png);
+  background-size: cover;
+  cursor: pointer;
+}
+#togglepass.hide {
+  background: url(../images/hide.png);
+  background-size: cover;
+} */
+
+.exlogin-header {
+  position: relative;
+  padding: 0 15px;
+  background-color: #fff;
+  z-index: 1;
+}
+.exlogin-header .brand-logo {
+  width: auto;
+  border: 0;
+}
+.exlogin-header .brand-logo a img {
+  max-width: 150px;
+}
+
+.exlogin-wrap {
+  height: calc(100% - 70px);
+  overflow: auto;
+  padding: 30px 0;
+}
+
+body.IE .exlogin-wrap,
+body.IE .register-page-wrap {
+  display: block !important;
+  padding: 0;
+}
+body.IE .exlogin-wrap .container,
+body.IE .register-page-wrap .container {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.exlogin-wrap .container,
+.register-page-wrap .container {
+  max-width: 1300px;
+}
+.exlogin-wrap .mCustomScrollBox {
+  height: auto;
+  width: 100%;
+}
+
+.formlogin {
+  margin-bottom: 1.25em;
+  font-size: 14px;
+}
+
+#drop_zone {
+  /* background-color: #ffe3e3; */
+  border: #01a9ac 5px dashed;
+  width: 100%;
+  padding: 60px 0;
+}
+#drop_zone p {
+  font-size: 20px;
+  text-align: center;
+}
+#btn_upload,
+#selectfile {
+  display: none;
+}
+
+.grpbtn {
+  border:1px solid #aaa;
+}
+
+.btnaksi {
+  border-radius: 2px;
+  /* text-transform: capitalize; */
+  font-size: 13px;
+  padding: 5px 8px 5px 8px;
+  /* cursor: pointer; */
+}
+
+.eddi {
+  font-size: 12px !important;
+  padding: 5px 10px !important;
+  background-color: #EFEFEF;
+}
+.eddm {
+  padding: 0 0 !important;
+}
+
+.fontangkabesar {
+  font-size: 24px;
+  font-weight: bold;
+  color:purple;
+  border:2px solid
+}
+
+.fontlogin {
+  font-size: 24px;
+  font-weight: bold;
+  color:#01A9AC;
+  /* border:2px solid */
+}
+
+.fontver {
+  font-size: 12px;
+  color:gray;
+}
+
+.fontprofil {
+  font-size: 20px;
+  font-weight: bold;
+  color:#01A9AC;
+  /* border:2px solid */
+}
+
+.bghead {
+  background-color: #01A9AC;
+}
+.bghead2 {
+  background-color: #fe9365;
+}
+
+.bgtr {
+  background-color: #AA8873 !important;
+}
+.bgtr1 {
+  background-color: #87CEFA !important;
+}
+.bgtr2 {
+  background-color: #FFF380 !important;
+}
+.bgtr3 {
+  background-color: #EFC0FE !important;
+}
+.warnamin {
+  color: #FF0000;
+}
+
+tr.fonbol td {
+  font-weight: bold;
+}
+
+/* .bgl1 {
+  background-color: #01A9AC !important;  
+} */
+
+.text-selection-none{
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+.text-selection-text{
+  user-select: text; /* supported by Chrome and Opera */
+  -webkit-user-select: text; /* Safari */
+  -khtml-user-select: text; /* Konqueror HTML */
+  -moz-user-select: text; /* Firefox */
+  -ms-user-select: text;
+}
+.text-selection-all{
+  user-select: all; /* supported by Chrome and Opera */
+  -webkit-user-select: all; /* Safari */
+  -khtml-user-select: all; /* Konqueror HTML */
+  -moz-user-select: all; /* Firefox */
+  -ms-user-select: all;
+}
+.text-selection-auto{
+  user-select: auto; /* supported by Chrome and Opera */
+  -webkit-user-select: auto; /* Safari */
+  -khtml-user-select: auto; /* Konqueror HTML */
+  -moz-user-select: auto; /* Firefox */
+  -ms-user-select: auto;
+}
+.text-selection-contain{
+  user-select: contain; /* supported by Chrome and Opera */
+  -webkit-user-select: contain; /* Safari */
+  -khtml-user-select: contain; /* Konqueror HTML */
+  -moz-user-select: contain; /* Firefox */
+  -ms-user-select: element;
+}
+
+.rownol {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/* select { font-family: 'FontAwesome', Verdana } */
+
+.kursor {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999; /* so that it stays on top of all other elements */
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
